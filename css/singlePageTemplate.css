@@ -177,7 +177,6 @@ ul li:hover a {
 	color: #FFFFFF;
 	text-align:center;
 	padding-left: 100px;
-	width: 30%;
 	float:none;
 	font-weight: lighter;
 	line-height: 23px;
@@ -270,6 +269,16 @@ footer {
 .hidden {
 	display: none;
 }
+#movie {
+	width: 368px;
+}
+#losecontrol {
+	width: 960px;
+}
+#huisstijlboekje {
+	width: 931px;
+	height: 656px;
+}
 
 /* Mobile */
 @media (max-width: 320px) {
@@ -354,6 +363,15 @@ nav ul li {
 	padding-right: 10px;
 	line-height: 22px;
 	text-align: center;
+}
+#movie, #losecontrol, #huisstijlboekje {
+	width: 80%;
+}
+form {
+    padding: 0.5em;
+    border: 5px solid #CCC;
+    border-radius: 0.1em;
+    display: inline-block;
 }
 }
 
@@ -441,9 +459,6 @@ nav ul li {
 	width: 100%;
 	text-align: center;
 }
-.thumbnail {
-	width: 50%;
-}
 .parallax {
 	margin-top: 0px;
 	margin-right: 0px;
@@ -469,15 +484,15 @@ nav ul li {
 .footer_column {
 	width: 100%;
 }
+#movie, #losecontrol, #huisstijlboekje {
+	width: 80%;
+}
 }
 
 /* Small Desktops */
 @media (min-width: 768px) and (max-width: 1096px) {
 .text_column {
 	width: 100%;
-}
-.thumbnail {
-	width: 50%;
 }
 .text_column {
 	width: 100%;
@@ -493,6 +508,12 @@ nav ul li {
 .banner {
 	margin-top: 0px;
 	padding-top: 0px;
+}
+.thumbnail {
+	width: 100%;
+}
+#movie, #losecontrol, #huisstijlboekje {
+	width: 80%;
 }
 }
 
