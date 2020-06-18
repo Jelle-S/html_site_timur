@@ -20,10 +20,11 @@ body {
 }
 /* Navigation */
 header {
-  width: 100%;
-  height: 5%;
   background-color: #E22532;
   border-bottom: 1px solid #3865AE;
+}
+header video, header img {
+  width: 100%;
 }
 .logo {
   color: #FFFFFF;
@@ -160,7 +161,6 @@ ul li:hover a {
 .banner {
   background-color: #3865AE;
   background-image: url(../images/parallax.png);
-  height: 800px;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -325,6 +325,15 @@ input, textarea {
 }
 button {
   margin-left: .5em;
+}
+.galleria {
+  height: 500px;
+  max-width: 80%;
+  margin: 0 auto;
+  padding-bottom: 1em;
+}
+.galleria img {
+  max-width: 100%;
 }
 /* Mobile */
 @media (max-width: 320px) {
@@ -539,6 +548,13 @@ button {
   }
   #movie, #losecontrol, #huisstijlboekje {
     width: 80%;
+  }
+  form {
+    padding: 0.5em;
+    border: 5px solid #CCC;
+    border-radius: 0.3em;
+    display: inline-block;
+    width: 230px;
   }
 }
 
